@@ -1,10 +1,9 @@
 // page.tsx
-
 import React from "react";
-import { AllBlog } from "./blog/allblog";
-import db from "../lib/firebase";
-// import { useState } from "react";
+import { ArticleList } from "../components/ArticleList";
 
-export default function Page() {
-  return <AllBlog />;
+export default function Home() {
+  <>
+    <ArticleList />;
+  </>;
 }
